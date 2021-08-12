@@ -5,10 +5,7 @@
 Install the module
 
 ```bash
-yarn add @dewebsitejongens/babel-preset --dev
-
-yarn add @babel/core --dev
-yarn add @babel/runtime --dev
+yarn add browserslist @babel/core @babel/runtime @dewebsitejongens/babel-preset --dev
 ```
 
 ## Usage
