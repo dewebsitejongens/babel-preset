@@ -1,0 +1,66 @@
+{
+  "name": "@dewebsitejongens/babel-preset",
+  "version": "0.1.0",
+  "description": "De Website Jongens Babel preset",
+  "authors": [
+    {
+      "name": "Nick Vlug",
+      "email": "nick@dewebsitejongens.nl"
+    }
+  ],
+  "license": "GPL-3.0",
+  "keywords": [
+    "websitejongens",
+    "dewebsitejongens",
+    "babel",
+    "babel-preset"
+  ],
+  "homepage": "https://github.com/dewebsitejongens/babel-preset/tree/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dewebsitejongens/babel-preset.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dewebsitejongens/babel-preset/issues"
+  },
+  "engines": {
+    "node": ">=14",
+    "yarn": ">=1.22"
+  },
+  "dependencies": {
+    "@dewebsitejongens/browserslist-config": "^0.1.0",
+    "@babel/plugin-external-helpers": "^7.14.5",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.14.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.14.7",
+    "@babel/plugin-proposal-optional-chaining": "^7.14.5",
+    "@babel/plugin-proposal-pipeline-operator": "^7.15.0",
+    "@babel/plugin-transform-classes": "^7.14.9",
+    "@babel/plugin-transform-destructuring": "^7.14.7",
+    "@babel/plugin-transform-member-expression-literals": "^7.14.5",
+    "@babel/plugin-transform-property-literals": "^7.14.5",
+    "@babel/plugin-transform-property-mutators": "^7.14.5",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/plugin-transform-spread": "^7.14.6",
+    "@babel/plugin-transform-template-literals": "^7.14.5",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.15.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "babel-plugin-object-to-json-parse": "^0.2.1",
+    "babel-plugin-minify-dead-code-elimination": "^0.5.1"
+  },
+  "peerDependencies": {
+    "@babel/core": ">=7.15.0",
+    "@babel/runtime": ">=7.15.3"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  }
+}
